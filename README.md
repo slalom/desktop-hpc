@@ -63,5 +63,5 @@ As this runs, watch the ECS console,  although you start with just one running t
 Try running the client again with even more numbers to factor. When you are all done, remember to use cdk to destroy the cloud formation stack so you won't be chargged for a cluster you no longer need.
 
 ```
-cdk destroy
+cdk destroy --app "dotnet run --project CDK/CDK.csproj" -f
 ```
